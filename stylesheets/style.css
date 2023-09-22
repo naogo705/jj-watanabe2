@@ -1893,5 +1893,6 @@ body.appear .wrap_inner{
 }
 
 .slick-slide img {
+  position: relative;
   z-index: 1;
 }
