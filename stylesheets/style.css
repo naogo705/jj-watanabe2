@@ -167,7 +167,6 @@ a {
   display: flex;
   align-items: center;
   height: 350px;
-  opacity: unset !important;
 }
 
 
@@ -1394,13 +1393,13 @@ body.appear .wrap_inner{
 
 
 /*inview js*/
-/* .fadeIn {
+.fadeIn {
   opacity: 0;
   transition: 1.4s;
 }
 .fadeIn.is-show {
   opacity: 1;
-} */
+}
 
 
 
@@ -1888,3 +1887,7 @@ body.appear .wrap_inner{
 }
 
 
+body.active {
+  height: 100%;
+  overflow: hidden;
+}
