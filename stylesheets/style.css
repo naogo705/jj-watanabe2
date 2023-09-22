@@ -719,7 +719,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  opacity: 0.95;
+  opacity: 1;
   z-index: 100;
   background-color: rgba(90,70,32,1);
 }
@@ -1393,13 +1393,13 @@ body.appear .wrap_inner{
 
 
 /*inview js*/
-/* .fadeIn {
+.fadeIn {
   opacity: 0;
   transition: 1.4s;
 }
 .fadeIn.is-show {
   opacity: 1;
-} */
+}
 
 
 
@@ -1721,7 +1721,7 @@ body.appear .wrap_inner{
 
 
 /*slide_rotate*/
-/* .slider li {
+.slider li {
   animation: slide_rotate 4s ease-in-out infinite;
   animation-fill-mode: backwards;
   animation-delay: 1s;
@@ -1757,7 +1757,7 @@ body.appear .wrap_inner{
     transform: rotate(.9375deg);
     transform-origin: right bottom
 }
-} */
+}
 
 
 
