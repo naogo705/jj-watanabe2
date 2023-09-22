@@ -1477,7 +1477,7 @@ body.appear .wrap_inner{
 
 
 
-/* .hover_line {
+.hover_line {
   border-bottom: 1px solid #fff;
   opacity: 1;
   display: block;
@@ -1489,7 +1489,7 @@ body.appear .wrap_inner{
 .menu_list a:hover .hover_line {
     animation: menu_hover .5s ease-in-out forwards;
   opacity: 1;
-} */
+}
 
 
 /* @keyframes menu_hover {
