@@ -1341,7 +1341,7 @@ footer {
 ------------------------------------------------------------------------------------ */
 
 /*ローディング*/
-/* #loading {
+#loading {
   width: 100vw;
   height: 100vh;
   transition: all 1s;
@@ -1366,7 +1366,7 @@ footer {
 
 .wrap_inner {
   opacity: 0;
-} */
+}
 
 /*bodyにappearクラスがついたら出現*/
 body.appear .wrap_inner{
@@ -1393,13 +1393,13 @@ body.appear .wrap_inner{
 
 
 /*inview js*/
-.fadeIn {
+/* .fadeIn {
   opacity: 0;
   transition: 1.4s;
 }
 .fadeIn.is-show {
   opacity: 1;
-}
+} */
 
 
 
@@ -1408,7 +1408,7 @@ body.appear .wrap_inner{
 
 
 /*link_more　hover*/
-.link_more span.active {
+/* .link_more span.active {
   animation: hover_line_on 1s ease-in-out forwards;
 }
 
@@ -1465,7 +1465,7 @@ body.appear .wrap_inner{
       opacity: 1;
       transform: translateX(0)
   }
-}
+} */
 
 
 
@@ -1477,7 +1477,7 @@ body.appear .wrap_inner{
 
 
 
-.hover_line {
+/* .hover_line {
   border-bottom: 1px solid #fff;
   opacity: 1;
   display: block;
@@ -1489,19 +1489,10 @@ body.appear .wrap_inner{
 .menu_list a:hover .hover_line {
     animation: menu_hover .5s ease-in-out forwards;
   opacity: 1;
-}
-/*
-.hover_line.active {
-  animation: menu_hover .5s ease-in-out forwards;
-  opacity: 1;
-}
-.hover_line.off {
-  animation: menu_off .5s ease-in-out forwards;
-  opacity: 1;
-}*/
+} */
 
 
-@keyframes menu_hover {
+/* @keyframes menu_hover {
 
   0% {
     opacity: 1;
@@ -1524,7 +1515,7 @@ body.appear .wrap_inner{
       opacity: 1;
       transform: translateX(-100%)
   }
-}
+} */
 
 
 
@@ -1539,7 +1530,7 @@ body.appear .wrap_inner{
 
 
 /*scloll_line スクロール時出現*/
-.scroll_line {
+/* .scroll_line {
   overflow: hidden;
 }
 
@@ -1578,7 +1569,7 @@ body.appear .wrap_inner{
       opacity: 1;
       transform: translateY(0)
   }
-}
+} */
 
 
 
@@ -1588,7 +1579,7 @@ body.appear .wrap_inner{
 
 
 /*スクロール回転*/
-.firstview_scroll p span:nth-child(1){
+/* .firstview_scroll p span:nth-child(1){
   animation: rotation 2.5s ease-in-out 1.5s infinite;
 }
 .firstview_scroll p span:nth-child(2){
@@ -1621,7 +1612,7 @@ body.appear .wrap_inner{
     transform: translateY(-50%) rotateX(90deg);
     opacity: 0;
   }
-}
+} */
 
 
 
@@ -1630,7 +1621,7 @@ body.appear .wrap_inner{
 
 
 /*openbtn_anime*/
-.openbtn>div:nth-of-type(1)>span {
+/* .openbtn>div:nth-of-type(1)>span {
   animation: openbtn_anime 2.5s ease-in-out 1.5s infinite;
   animation-delay: 1.5s;
   
@@ -1672,14 +1663,14 @@ body.appear .wrap_inner{
 }
 
 }
-
+ */
 
 
 
 
 
 /*fix_scroll*/
-.fix {
+/* .fix {
   position: fixed;
   bottom: 0;
   left: 0;
@@ -1714,14 +1705,14 @@ body.appear .wrap_inner{
     top: 100%;
     transform: translateY(-100%);
   }
-}
+} */
 
 
 
 
 
 /*slide_rotate*/
-.slider li {
+/* .slider li {
   animation: slide_rotate 4s ease-in-out infinite;
   animation-fill-mode: backwards;
   animation-delay: 1s;
@@ -1758,13 +1749,13 @@ body.appear .wrap_inner{
     transform-origin: right bottom
 }
 }
-
+ */
 
 
 
 
 /*letter_fadein*/
-.firstview_copy >h1>span {
+/* .firstview_copy >h1>span {
   transition: all 3s;
 }
 
@@ -1822,14 +1813,14 @@ body.appear .wrap_inner{
   100% {
       opacity: 1;
   }
-}
+} */
 
 
 
 
 
 /*スクロール時・ホバー時アニメーション*/
-.info_img img {
+/* .info_img img {
   border-radius: 30%;
   transform: scale(1.1);
 	transition: 1s ease-in-out;
@@ -1838,11 +1829,6 @@ body.appear .wrap_inner{
 .info_img img.active{
   animation: big 1s ease-in-out forwards;
 }
-
-/* .info_img img.small{
-	transform: scale(1);
-  transition: 1s ease-in-out;
-} */
 
 .info_img span{
   display: block;
@@ -1884,6 +1870,6 @@ body.appear .wrap_inner{
   display: block;
   line-height: 0;
   overflow: hidden;
-}
+} */
 
 
