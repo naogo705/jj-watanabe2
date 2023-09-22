@@ -1721,7 +1721,7 @@ body.appear .wrap_inner{
 
 
 /*slide_rotate*/
-.slider li {
+/* .slider li {
   animation: slide_rotate 4s ease-in-out infinite;
   animation-fill-mode: backwards;
   animation-delay: 1s;
@@ -1757,7 +1757,7 @@ body.appear .wrap_inner{
     transform: rotate(.9375deg);
     transform-origin: right bottom
 }
-}
+} */
 
 
 

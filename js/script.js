@@ -10,22 +10,22 @@ $(".openbtn").click(function(){
 
 
 
-// $('.slider').slick({
-//   autoplay: true,
-//   infinite: true,
-//   speed: 2500,
-//   slidesToShow: 5,
-//   centerMode: true,
-//   variableWidth: true,
-//   dots: false,
-//   pauseOnFocus: false,
-//   pauseOnHover: false,
-//   arrows: false,
-//   draggable: false,
-//   swipe: false,
-//   touchMove: false,
-//   zIndex: 1,
-// });
+$('.slider').slick({
+  autoplay: true,
+  infinite: true,
+  speed: 2500,
+  slidesToShow: 5,
+  centerMode: true,
+  variableWidth: true,
+  dots: false,
+  pauseOnFocus: false,
+  pauseOnHover: false,
+  arrows: false,
+  draggable: false,
+  swipe: false,
+  touchMove: false,
+  zIndex: 1,
+});
 
 
 
