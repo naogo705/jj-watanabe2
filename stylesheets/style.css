@@ -1393,13 +1393,13 @@ body.appear .wrap_inner{
 
 
 /*inview js*/
-/* .fadeIn {
+.fadeIn {
   opacity: 0;
   transition: 1.4s;
 }
 .fadeIn.is-show {
   opacity: 1;
-} */
+}
 
 
 
