@@ -731,6 +731,7 @@ header {
 
 .menu_inner {
   position: relative;
+  z-index: 99;
 }
 	
 .menu_list a {
@@ -1129,7 +1130,6 @@ footer {
   display: flex;
   align-items: center;
   height: 350px;
-  z-index: 1;
 }
 
 
