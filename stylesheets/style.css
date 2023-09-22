@@ -731,7 +731,6 @@ header {
 
 .menu_inner {
   position: relative;
-  z-index: 91;
 }
 	
 .menu_list a {
@@ -868,7 +867,6 @@ header {
   left: 0;
   margin: 0;
   padding: 210px 150px 220px;
-  z-index: 90;
 }
 
 .menu_logo {
@@ -1888,11 +1886,4 @@ body.appear .wrap_inner{
   overflow: hidden;
 }
 
-.slick-slider {
-  z-index: 2;
-}
 
-.slick-slide img {
-  position: relative;
-  z-index: 1;
-}
