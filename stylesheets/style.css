@@ -1408,7 +1408,7 @@ body.appear .wrap_inner{
 
 
 /*link_more　hover*/
-/* .link_more span.active {
+.link_more span.active {
   animation: hover_line_on 1s ease-in-out forwards;
 }
 
@@ -1465,7 +1465,7 @@ body.appear .wrap_inner{
       opacity: 1;
       transform: translateX(0)
   }
-} */
+}
 
 
 
