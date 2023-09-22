@@ -1492,7 +1492,7 @@ body.appear .wrap_inner{
 }
 
 
-/* @keyframes menu_hover {
+@keyframes menu_hover {
 
   0% {
     opacity: 1;
@@ -1515,7 +1515,7 @@ body.appear .wrap_inner{
       opacity: 1;
       transform: translateX(-100%)
   }
-} */
+}
 
 
 
