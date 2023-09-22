@@ -167,6 +167,7 @@ a {
   display: flex;
   align-items: center;
   height: 350px;
+  opacity: unset !important;
 }
 
 
