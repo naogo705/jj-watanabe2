@@ -731,7 +731,6 @@ header {
 
 .menu_inner {
   position: relative;
-  z-index: 99;
 }
 	
 .menu_list a {

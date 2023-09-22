@@ -24,6 +24,7 @@ $('.slider').slick({
   draggable: false,
   swipe: false,
   touchMove: false,
+  zIndex: 1,
 });
 
 
