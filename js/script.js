@@ -4,7 +4,6 @@ $(".openbtn").click(function(){
   $(".menu").toggleClass('active');
   $(".cart_icon_w").toggleClass('active');
   $(".header_ttl").toggleClass('active');
-  $("body").toggleClass('active');
   return false;
 });
 
