@@ -1839,10 +1839,10 @@ body.appear .wrap_inner{
   animation: big 1s ease-in-out forwards;
 }
 
-.info_img img.small{
+/* .info_img img.small{
 	transform: scale(1);
   transition: 1s ease-in-out;
-}
+} */
 
 .info_img span{
   display: block;
