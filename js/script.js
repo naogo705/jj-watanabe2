@@ -89,144 +89,144 @@ $('.news_list li').hover (
 
 
 
-// function sclollAnime1(){
+function sclollAnime1(){
 
-//   $('.scroll_line').each(function(){ 
-//     var elemPos = $(this).offset().top-10;
-//     var scroll = $(window).scrollTop();
-//     var windowHeight = $(window).height();
-//     if (scroll >= elemPos - windowHeight){
-//     $(this).find('span').addClass('active');
-//     }else{
-//     $(this).find('span').removeClass('active');
-//     }
-//     });
-// }
+  $('.scroll_line').each(function(){ 
+    var elemPos = $(this).offset().top-10;
+    var scroll = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    if (scroll >= elemPos - windowHeight){
+    $(this).find('span').addClass('active');
+    }else{
+    $(this).find('span').removeClass('active');
+    }
+    });
+}
 
-//   $(window).scroll(function (){
-//     sclollAnime1();
-//   });
-
-
-// function sclollAnime2(){
-
-//   $('.link_more').each(function(){ 
-//     var elemPos = $(this).offset().top-50;
-//     var scroll = $(window).scrollTop();
-//     var windowHeight = $(window).height();
-//     if (scroll >= elemPos - windowHeight){
-//     $(this).find('span').addClass('active');
-//     }else{
-//     $(this).find('span').removeClass('active');
-//     }
-//     });
-// }
-
-//   $(window).scroll(function (){
-//     sclollAnime2();
-//   });
+  $(window).scroll(function (){
+    sclollAnime1();
+  });
 
 
+function sclollAnime2(){
 
-// function sclollAnime3(){
+  $('.link_more').each(function(){ 
+    var elemPos = $(this).offset().top-50;
+    var scroll = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    if (scroll >= elemPos - windowHeight){
+    $(this).find('span').addClass('active');
+    }else{
+    $(this).find('span').removeClass('active');
+    }
+    });
+}
 
-//   $('.recommend_img').each(function(){ 
-//     var elemPos = $(this).offset().top-50;
-//     var scroll = $(window).scrollTop();
-//     var windowHeight = $(window).height();
-//     if (scroll >= elemPos - windowHeight){
-//     $(this).find('img').addClass('active');
-//     }else{
-//     $(this).find('img').removeClass('active');
-//     }
-//     });
-// }
-
-//   $(window).scroll(function (){
-//     sclollAnime3();
-//   });
+  $(window).scroll(function (){
+    sclollAnime2();
+  });
 
 
 
-// function sclollAnime4(){
+function sclollAnime3(){
 
-//   $('.other_list').each(function(){ 
-//     var elemPos = $(this).offset().top-50;
-//     var scroll = $(window).scrollTop();
-//     var windowHeight = $(window).height();
-//     if (scroll >= elemPos - windowHeight){
-//     $(this).find('img').addClass('active');
-//     }else{
-//     $(this).find('img').removeClass('active');
-//     }
-//     });
-// }
+  $('.recommend_img').each(function(){ 
+    var elemPos = $(this).offset().top-50;
+    var scroll = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    if (scroll >= elemPos - windowHeight){
+    $(this).find('img').addClass('active');
+    }else{
+    $(this).find('img').removeClass('active');
+    }
+    });
+}
 
-//   $(window).scroll(function (){
-//     sclollAnime4();
-//   });
-
-
-
-//   function scrollAnime5() {
-//     $('.info_list li').each(function() {
-//       var elemPos = $(this).offset().top - 50;
-//       var scroll = $(window).scrollTop();
-//       var windowHeight = $(window).height();
-//       if (scroll >= elemPos - windowHeight) {
-//         $(this).find('.info_img img').addClass('small');
-//         $(this).find('.info_img span').addClass('active');
-//       } else {
-//         $(this).find('.info_img img').removeClass('small');
-//         $(this).find('.info_img span').removeClass('active');
-//       }
-//     });
-//   }
-//   $(window).scroll(function() {
-//     scrollAnime5();
-//   });
+  $(window).scroll(function (){
+    sclollAnime3();
+  });
 
 
 
+function sclollAnime4(){
 
+  $('.other_list').each(function(){ 
+    var elemPos = $(this).offset().top-50;
+    var scroll = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    if (scroll >= elemPos - windowHeight){
+    $(this).find('img').addClass('active');
+    }else{
+    $(this).find('img').removeClass('active');
+    }
+    });
+}
 
-// function sclollAnime7(){
-
-//   $('.news_list li').each(function(){ 
-//     var elemPos = $(this).offset().top-10;
-//     var scroll = $(window).scrollTop();
-//     var windowHeight = $(window).height();
-//     if (scroll >= elemPos - windowHeight){
-//     $(this).find('.news_img span img').addClass('small');
-//     }else{
-//     $(this).find('.news_img span img').removeClass('small');
-//     }
-//     });
-// }
-
-//   $(window).scroll(function (){
-//     sclollAnime7();
-//   });
+  $(window).scroll(function (){
+    sclollAnime4();
+  });
 
 
 
-//   function sclollAnime8(){
+  function scrollAnime5() {
+    $('.info_list li').each(function() {
+      var elemPos = $(this).offset().top - 50;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll >= elemPos - windowHeight) {
+        $(this).find('.info_img img').addClass('small');
+        $(this).find('.info_img span').addClass('active');
+      } else {
+        $(this).find('.info_img img').removeClass('small');
+        $(this).find('.info_img span').removeClass('active');
+      }
+    });
+  }
+  $(window).scroll(function() {
+    scrollAnime5();
+  });
 
-//     $('.footer_onlineshop').each(function(){ 
-//       var elemPos = $(this).offset().top-50;
-//       var scroll = $(window).scrollTop();
-//       var windowHeight = $(window).height();
-//       if (scroll >= elemPos - windowHeight){
-//       $(this).find('.footer_online_img').addClass('active');
-//       }else{
-//       $(this).find('.footer_online_img').removeClass('active');
-//       }
-//       });
-//   }
+
+
+
+
+function sclollAnime7(){
+
+  $('.news_list li').each(function(){ 
+    var elemPos = $(this).offset().top-10;
+    var scroll = $(window).scrollTop();
+    var windowHeight = $(window).height();
+    if (scroll >= elemPos - windowHeight){
+    $(this).find('.news_img span img').addClass('small');
+    }else{
+    $(this).find('.news_img span img').removeClass('small');
+    }
+    });
+}
+
+  $(window).scroll(function (){
+    sclollAnime7();
+  });
+
+
+
+  function sclollAnime8(){
+
+    $('.footer_onlineshop').each(function(){ 
+      var elemPos = $(this).offset().top-50;
+      var scroll = $(window).scrollTop();
+      var windowHeight = $(window).height();
+      if (scroll >= elemPos - windowHeight){
+      $(this).find('.footer_online_img').addClass('active');
+      }else{
+      $(this).find('.footer_online_img').removeClass('active');
+      }
+      });
+  }
   
-//     $(window).scroll(function (){
-//       sclollAnime8();
-//     });
+    $(window).scroll(function (){
+      sclollAnime8();
+    });
 
 
 
