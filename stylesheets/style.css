@@ -1891,3 +1891,7 @@ body.appear .wrap_inner{
 .slick-slider {
   z-index: 2;
 }
+
+.slick-slide img {
+  z-index: 1;
+}
