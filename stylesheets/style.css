@@ -1530,7 +1530,7 @@ body.appear .wrap_inner{
 
 
 /*scloll_line スクロール時出現*/
-/* .scroll_line {
+.scroll_line {
   overflow: hidden;
 }
 
@@ -1569,7 +1569,7 @@ body.appear .wrap_inner{
       opacity: 1;
       transform: translateY(0)
   }
-} */
+}
 
 
 
